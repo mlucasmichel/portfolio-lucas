@@ -1,0 +1,13 @@
+
+
+/* General Styles */
+body {
+    background-color: aqua;
+}
+
+/* grid visualization */
+section,
+header,
+footer {
+    border: 1px solid black;
+}

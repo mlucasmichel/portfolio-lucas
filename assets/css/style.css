@@ -15,12 +15,21 @@ body {
   background-color: var(--light-accent-color);
 }
 
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);
   color: var(--text-light-color);
-  border-radius: 10px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius:0 0 10px 10px;
+}
+
+/* Hero Styles */
+#hero {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
 }
 
 /* grid visualization */
@@ -30,3 +39,13 @@ footer {
   background-color: var(--secondary-color);
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 } */
+
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    #navbar {
+        border-radius: 10px;
+    }
+}

@@ -39,6 +39,17 @@ body {
   background-color: var(--light-accent-color);
 }
 
+/* Footer Styles */
+#footer {
+    background-color: var(--primary-color);
+    color: var(--text-light-color);
+    padding: 20px;
+}
+
+#footer #site-map {
+    display: none;
+}
+
 /* grid visualization */
 /* section,
 header,
@@ -49,9 +60,13 @@ footer {
 
 /* Media queries */
 
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+}
+
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
-  .main-layout {
+  .constrain {
     max-width: 928px;
   }
 }

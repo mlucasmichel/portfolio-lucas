@@ -40,14 +40,10 @@ body {
 }
 
 /* Footer Styles */
-#footer {
+#footer .container-fluid{
     background-color: var(--primary-color);
     color: var(--text-light-color);
-    padding: 20px;
-}
-
-#footer #site-map {
-    display: none;
+    padding: 10px;
 }
 
 /* grid visualization */

@@ -39,6 +39,11 @@ body {
   background-color: var(--light-accent-color);
 }
 
+#about img {
+    border-radius: 50%;
+    border: 5px solid var(--accent-color);
+}
+
 /* Footer Styles */
 #footer .container-fluid{
     background-color: var(--primary-color);

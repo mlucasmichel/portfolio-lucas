@@ -2,34 +2,41 @@
 :root {
   --primary-font: ;
   --secondary-font: ;
-  --primary-color: #D72631; /* Red */
-  --secondary-color: #B0B8C1; /* Light Grey */
-  --accent-color: #9E1B20; /* Dark Red */
-  --light-accent-color: #FFFFFF; /* Pure White */
-  --text-dark-color: #2E2E2E; /* Dark Grey */
-  --text-light-color: #F5F5F5; /* Lighter Grey */
+  --primary-color: #d72631; /* Red */
+  --secondary-color: #b0b8c1; /* Light Grey */
+  --accent-color: #9e1b20; /* Dark Red */
+  --light-accent-color: #ffffff; /* White */
+  --text-dark-color: #2e2e2e; /* Dark Grey */
+  --text-light-color: #f5f5f5; /* Lighter Grey */
 }
 
 /* General Styles */
 body {
-  background-color: var(--light-accent-color);
+  background-color: var(--secondary-color);
 }
 
-.shadow {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+.main-layout {
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
 }
 
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);
   color: var(--text-light-color);
-  border-radius:0 0 10px 10px;
 }
 
 /* Hero Styles */
 #hero {
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+  background-color: var(--light-accent-color);
+}
+
+/* Main content */
+
+/* About Me Styles */
+#about {
+  background-color: var(--light-accent-color);
 }
 
 /* grid visualization */
@@ -40,12 +47,11 @@ footer {
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 } */
 
-
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-    #navbar {
-        border-radius: 10px;
-    }
+  #navbar {
+    border-radius: 10px;
+  }
 }

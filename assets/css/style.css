@@ -21,6 +21,10 @@ body {
     border-radius: 10px;
 }
 
+.main-colour {
+    background-color: var(--light-accent-color);
+}
+
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);
@@ -28,20 +32,22 @@ body {
 }
 
 /* Hero Styles */
-#hero {
-  background-color: var(--light-accent-color);
-}
 
 /* Main content */
 
 /* About Me Styles */
-#about {
-  background-color: var(--light-accent-color);
-}
 
 #about img {
     border-radius: 50%;
     border: 5px solid var(--accent-color);
+}
+
+/* Projects Styles */
+
+#projects .card {
+    margin-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
 }
 
 /* Footer Styles */

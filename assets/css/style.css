@@ -1,7 +1,10 @@
+/* Google Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* CSS Variables */
 :root {
-  --primary-font: ;
-  --secondary-font: ;
+  --primary-font: Gugi, sans-serif;
+  --secondary-font: Asap, sans-serif;
   --primary-color: #d72631; /* Red */
   --secondary-color: #b0b8c1; /* Light Grey */
   --accent-color: #9e1b20; /* Dark Red */
@@ -13,6 +16,18 @@
 /* General Styles */
 body {
   background-color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--primary-font);
+    color: var(--text-dark-color);
+}
+
+p {
+  font-family: var(--secondary-font);
+  color: var(--text-dark-color);
 }
 
 .main-layout {

@@ -31,6 +31,10 @@ body {
   color: var(--text-light-color);
 }
 
+#navbar .navbar-brand img {
+  max-width: 32px;
+}
+
 /* Hero Styles */
 
 /* Main content */

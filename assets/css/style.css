@@ -76,6 +76,10 @@ p {
     padding: 10px;
 }
 
+#footer #foot-logo {
+  max-width: 35px;
+}
+
 /* grid visualization */
 /* section,
 header,

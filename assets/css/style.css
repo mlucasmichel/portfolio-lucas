@@ -18,6 +18,10 @@ body {
   background-color: var(--secondary-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 h1,
 h2,
 h3 {
@@ -78,6 +82,16 @@ p {
 
 #footer #foot-logo {
   max-width: 35px;
+}
+
+#footer .socials i {
+  color: var(--light-accent-color);
+  font-size: 1.8rem;
+  margin: 0.5rem 1rem 0 1rem;
+}
+
+#footer .socials i:hover {
+  color: var(--accent-color);
 }
 
 /* grid visualization */

@@ -113,5 +113,9 @@ footer {
   .constrain {
     max-width: 928px;
   }
+  
+  #navbar {
+    border-radius: 0px;
+  }
 }
 

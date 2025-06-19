@@ -1,5 +1,5 @@
 /* Google Fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gugi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* CSS Variables */
 :root {
@@ -25,8 +25,8 @@ a {
 h1,
 h2,
 h3 {
-    font-family: var(--primary-font);
-    color: var(--text-dark-color);
+  font-family: var(--primary-font);
+  color: var(--text-dark-color);
 }
 
 p {
@@ -35,13 +35,13 @@ p {
 }
 
 .main-layout {
-    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
     rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 .main-colour {
-    background-color: var(--light-accent-color);
+  background-color: var(--light-accent-color);
 }
 
 /* Navbar Styles */
@@ -61,23 +61,27 @@ p {
 /* About Me Styles */
 
 #about img {
-    border-radius: 50%;
-    border: 5px solid var(--accent-color);
+  border-radius: 50%;
+  border: 5px solid var(--accent-color);
 }
 
 /* Projects Styles */
 
 #projects .card {
-    margin-bottom: 1.5rem;
-    border: none;
-    background-color: transparent;
+  margin-bottom: 1.5rem;
+  border: none;
+  background-color: transparent;
+}
+
+#projects .card-footer {
+  border: none;
 }
 
 /* Footer Styles */
-#footer .container-fluid{
-    background-color: var(--primary-color);
-    color: var(--text-light-color);
-    padding: 10px;
+#footer .container-fluid {
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  padding: 10px;
 }
 
 #footer #foot-logo {
@@ -106,6 +110,13 @@ footer {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  #projects .card-body {
+    min-height: 220px;
+  }
+
+  #projects h2 {
+    white-space: nowrap;
+  }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -113,13 +124,19 @@ footer {
   .constrain {
     max-width: 928px;
   }
-  
+
+  /* Navbar Styles */
   #navbar {
     border-radius: 0;
   }
 
+  /* Project styles */
+  #projects .card-body {
+    min-height: 160px;
+  }
+
+  /* Footer Styles */
   #footer .main-layout {
     border-radius: 0;
   }
 }
-

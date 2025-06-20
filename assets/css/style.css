@@ -44,6 +44,39 @@ p {
   background-color: var(--light-accent-color);
 }
 
+/* Custom horizontal ruler */
+.custom-hr {
+    color: var(--text-light-color);
+}
+
+/* Buttons */
+.custom-button {
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  font-weight: bold;
+}
+.custom-button:hover {
+  border: 3px solid var(--primary-color);
+  background-color: var(--light-accent-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.custom-button-inverse {
+  border: 3px solid var(--primary-color);
+  background-color: var(--light-accent-color);
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.custom-button-inverse:hover {
+  border: 3px solid var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+  font-weight: bold;
+}
+
 /* Navbar Styles */
 #navbar {
   background-color: var(--primary-color);

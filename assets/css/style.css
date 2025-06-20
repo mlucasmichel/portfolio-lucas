@@ -44,11 +44,6 @@ p {
   background-color: var(--light-accent-color);
 }
 
-/* Custom horizontal ruler */
-.custom-hr {
-    color: var(--text-light-color);
-}
-
 /* Buttons */
 .custom-button {
   border: 3px solid var(--primary-color);
@@ -110,19 +105,26 @@ p {
   border: none;
 }
 
+/* More projects Styles */
+#more #more-top {
+  border-radius: 10px 10px 0 0;
+  background-color: var(--primary-color);
+  color: var(--text-light-color);
+}
+
 /* Contact Me Styles*/
 #contact-form h2 {
   font-family: var(--secondary-font);
 }
 
 #contact-form .form-control {
-  box-shadow:  rgba(128, 0, 0, 0.5) 0px 0px 0.25em;
+  box-shadow: rgba(128, 0, 0, 0.5) 0px 0px 0.25em;
 }
 
 #contact-form {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
 
 /* Footer Styles */
 #footer .container-fluid {

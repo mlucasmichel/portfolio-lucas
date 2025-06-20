@@ -65,26 +65,33 @@
     <!-- Main content -->
     <main>
         <!-- Contact Me form -->
-        <section id="contact-form" class="container-fluid p-4 mb-4 mb-lg-2 main-layout main-colour constrain">
+        <section id="contact-form" class="container-fluid mb-4 mb-lg-2 main-layout main-colour constrain">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="h5 fw-bold">Send a Message</h1>
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    <h2 class="h4 fw-bold">Send a Message:</h2>
+                    <form action="" method="get">
+                        <div class="row">
+                            <div class="mb-2">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="yourname@email.com"
+                                    required>
+                            </div>
+                            <div class="col-md-6 mb-2">
+                                <label for="number" class="form-label">Phone number (optional)</label>
+                                <input type="number" class="form-control" id="phone" placeholder="+353...">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" placeholder="Leave you message here..."
+                                    rows="5"></textarea>
+                            </div>
                         </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="yourname@email.com" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="number" class="form-label">Phone number (optional)</label>
-                            <input type="number" class="form-control" id="phone" placeholder="+353...">
-                        </div>
-                        <div class="mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" id="message" placeholder="Leave you message here..." rows="5"></textarea>
-                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>

@@ -77,7 +77,7 @@ p {
   border: none;
 }
 
-/* Contact Me */
+/* Contact Me Styles*/
 #contact-form h2 {
   font-family: var(--secondary-font);
 }
@@ -85,6 +85,11 @@ p {
 #contact-form .form-control {
   box-shadow:  rgba(128, 0, 0, 0.5) 0px 0px 0.25em;
 }
+
+#contact-form {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 
 /* Footer Styles */
 #footer .container-fluid {
@@ -123,6 +128,12 @@ p {
 
   #projects h2 {
     white-space: nowrap;
+  }
+
+  /* Contact Me Styles*/
+  #contact-form {
+    padding-left: 140px;
+    padding-right: 140px;
   }
 }
 

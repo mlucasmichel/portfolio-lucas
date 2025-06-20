@@ -151,14 +151,13 @@ p {
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
-  /* Header */
-  #header p {
-    padding: 0 120px;
+  /* Projects */
+  #projects-header p {
+    padding: 0 98px;
   }
 
-  /* Projects */
   #projects .card-body {
-    min-height: 220px;
+    min-height: 232px;
   }
 
   #projects h2 {
@@ -166,6 +165,10 @@ p {
   }
 
   /* Contact Me Styles*/
+  #contact-header p {
+    padding: 0 120px;
+  }
+
   #contact-form {
     padding-left: 140px;
     padding-right: 140px;

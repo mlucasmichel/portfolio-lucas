@@ -54,7 +54,7 @@ p {
   max-width: 32px;
 }
 
-/* Hero Styles */
+/* Header Styles */
 
 /* Main content */
 
@@ -98,18 +98,16 @@ p {
   color: var(--accent-color);
 }
 
-/* grid visualization */
-/* section,
-header,
-footer {
-  background-color: var(--secondary-color);
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-} */
-
 /* Media queries */
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
+  /* Header */
+  #header p {
+    padding: 0 120px;
+  }
+
+  /* Projects */
   #projects .card-body {
     min-height: 220px;
   }
@@ -128,6 +126,11 @@ footer {
   /* Navbar Styles */
   #navbar {
     border-radius: 0;
+  }
+
+  /* Header */
+  #header p {
+    padding: 0 240px;
   }
 
   /* Project styles */

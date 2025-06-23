@@ -16,6 +16,7 @@
 /* General Styles */
 body {
   background-color: var(--secondary-color);
+  margin-top: 80px;
 }
 
 a {
